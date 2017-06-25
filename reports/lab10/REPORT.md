@@ -161,6 +161,8 @@ EOF
 
 ```ShellSession
 $ travis lint
+Hooray, .travis.yml looks valid :)
+
 ```
 
 ```ShellSession
@@ -171,7 +173,20 @@ $ git push origin master
 
 ```ShellSession
 $ travis login --auto
+We need your GitHub login to identify you.
+This information will not be sent to Travis CI, only to api.github.com.
+The password will not be displayed.
+
+Try running with --github-token or --auto if you don't want to enter your password anyway.
+
+Username: a346560
+Password for a346560: ********
+Successfully logged in as a346560!
+
 $ travis enable
+Detected repository as a346560/lab10, is this correct? |yes| 
+a346560/lab10: enabled :)
+
 ```
 
 ```ShellSession
